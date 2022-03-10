@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  newservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-10T14:59:52.0017094-05:00"
+    description: A Helm chart for Kubernetes
+    digest: d91489c590f2572edd83b12c0ba20db6a301a003552717ef334ff919a3cb8e13
+    name: newservice
+    type: application
+    urls:
+    - https://harrytong.github.io/test/newservice-0.1.0.tgz
+    version: 0.1.0
   sds_iris_template:
   - annotations:
       intersystems/sds-category: demo
@@ -7,7 +18,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Service Template
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-10T14:49:19.6226711-05:00"
+    created: "2022-03-10T14:59:52.0028075-05:00"
     description: Put a description of your service here
     digest: 6f26f550adb5803cdf942313924227c9f66203e9980eef92dad083dcf1cb3264
     icon: https://amirsamary.github.io/sds-charts-dev/per_iris/icon.png
@@ -16,4 +27,4 @@ entries:
     urls:
     - https://harrytong.github.io/test/sds_iris_template-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-10T14:49:19.620537-05:00"
+generated: "2022-03-10T14:59:52.0011576-05:00"
